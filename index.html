@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RankFlow SEO — SEO for Small Business & E-commerce | Get Found on Google</title>
+    <meta name="description" content="RankFlow SEO helps local businesses and e-commerce stores dominate Google search. Increase organic traffic and capture high-intent leads without burning cash on ads. Local SEO, e-commerce SEO, and strategic content services starting at $1,500/mo.">
+    <meta name="keywords" content="seo for small business, local seo services, ecommerce seo services, seo agency pricing, affordable seo services, technical seo audit, small business seo packages, lawyer seo, dentist seo, plumber seo, shopify seo services">
+    <link rel="canonical" href="https://rankflowseo.com">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="RankFlow SEO — SEO for Small Business & E-commerce">
+    <meta property="og:description" content="Get found on Google. Increase organic traffic and capture leads without burning cash on ads.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rankflowseo.com">
+    
+    <!-- Schema Markup: LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "RankFlow SEO",
+        "description": "SEO agency helping small businesses and e-commerce stores get found on Google with predictable, measurable growth.",
+        "url": "https://rankflowseo.com",
+        "priceRange": "$1,500-$5,000",
+        "areaServed": {
+            "@type": "Country",
+            "name": "United States"
+        },
+        "audience": {
+            "@type": "Audience",
+            "audienceType": "Small Business Owners"
+        },
+        "sameAs": []
+    }
+    </script>
+    
+    <!-- Service Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Local SEO Services - RankFlow SEO",
+        "provider": {
+            "@type": "LocalBusiness",
+            "name": "RankFlow SEO"
+        },
+        "description": "Google Business Profile optimization, local citation building, and local keyword strategy to dominate Map Pack rankings.",
+        "areaServed": {
+            "@type": "Country",
+            "name": "United States"
+        }
+    }
+    </script>
+    
+    <style>
+        /* ===== RESET & BASE ===== */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --primary: #0a2463;
+            --primary-light: #1e3a8a;
+            --accent: #f59e0b;
+            --accent-hover: #d97706;
+            --dark: #0f172a;
+            --gray-900: #1e293b;
+            --gray-700: #334155;
+            --gray-500: #64748b;
+            --gray-300: #cbd5e1;
+            --gray-100: #f1f5f9;
+            --white: #ffffff;
+            --success: #10b981;
+            --font-sans: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            --max-width: 1200px;
+            --header-h: 72px;
+        }
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        body {
+            font-family: var(--font-sans);
+            color: var(--gray-900);
+            line-height: 1.6;
+            background: var(--white);
+            overflow-x: hidden;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        a {
+            color: var(--primary-light);
+            text-decoration: none;
+        }
+        ul { list-style: none; }
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .section {
+            padding: 80px 0;
+        }
+        .section-label {
+            display: inline-block;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent);
+            margin-bottom: 12px;
+        }
+        .section-title {
+            font-size: 2.25rem;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .section-subtitle {
+            font-size: 1.125rem;
+            color: var(--gray-500);
+            max-width: 640px;
+            margin-bottom: 48px;
+        }
+        .text-center { text-align: center; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+
+        /* ===== BUTTONS ===== */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px 32px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            border: 2px solid transparent;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            text-align: center;
+            white-space: nowrap;
+        }
+        .btn-primary {
+            background: var(--accent);
+            color: var(--dark);
+            border-color: var(--accent);
+        }
+        .btn-primary:hover {
+            background: var(--accent-hover);
+            border-color: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(245, 158, 11, 0.35);
+        }
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            border-color: var(--white);
+        }
+        .btn-secondary:hover {
+            background: var(--white);
+            color: var(--primary);
+            transform: translateY(-2px);
+        }
+        .btn-outline {
+            background: transparent;
+            color: var(--primary);
+            border-color: var(--primary);
+        }
+        .btn-outline:hover {
+            background: var(--primary);
+            color: var(--white);
+            transform: translateY(-2px);
+        }
+        .btn-sm {
+            padding: 10px 24px;
+            font-size: 0.9rem;
+        }
+
+        /* ===== HEADER / NAV ===== */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: var(--header-h);
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--gray-100);
+            z-index: 1000;
+            transition: box-shadow 0.3s;
+        }
+        .header.scrolled {
+            box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: var(--header-h);
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .logo-icon {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+        .nav-links a {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--gray-700);
+            transition: color 0.2s;
+            position: relative;
+        }
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: width 0.25s;
+        }
+        .nav-links a:hover { color: var(--primary); }
+        .nav-links a:hover::after { width: 100%; }
+        .nav-cta {
+            padding: 10px 22px !important;
+            background: var(--accent) !important;
+            color: var(--dark) !important;
+            border-radius: 8px !important;
+            font-weight: 600 !important;
+        }
+        .nav-cta::after { display: none !important; }
+        .nav-cta:hover {
+            background: var(--accent-hover) !important;
+            transform: translateY(-1px);
+        }
+
+        /* Mobile menu */
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .menu-toggle span {
+            display: block;
+            width: 26px;
+            height: 2.5px;
+            background: var(--primary);
+            border-radius: 2px;
+            transition: all 0.3s;
+        }
+        .menu-toggle.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+        .menu-toggle.active span:nth-child(2) { opacity: 0; }
+        .menu-toggle.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+        /* ===== HERO ===== */
+        .hero {
+            padding: 140px 0 80px;
+            background: linear-gradient(135deg, var(--primary) 0%, #0f2b6b 50%, #1a3a7a 100%);
+            color: var(--white);
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 30% 50%, rgba(245, 158, 11, 0.08) 0%, transparent 50%);
+            animation: heroGlow 12s ease-in-out infinite alternate;
+        }
+        @keyframes heroGlow {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(5%, 5%); }
+        }
+        .hero .container { position: relative; z-index: 1; }
+        .hero-content {
+            max-width: 720px;
+        }
+        .hero h1 {
+            font-size: 3.25rem;
+            font-weight: 800;
+            line-height: 1.15;
+            margin-bottom: 20px;
+        }
+        .hero h1 span {
+            background: linear-gradient(135deg, var(--accent), #fbbf24);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: rgba(255,255,255,0.85);
+            max-width: 600px;
+            margin-bottom: 36px;
+            line-height: 1.7;
+        }
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        /* ===== TRUST BAR ===== */
+        .trust-bar {
+            padding: 32px 0;
+            background: var(--gray-100);
+            text-align: center;
+        }
+        .trust-bar p {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--gray-500);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 20px;
+        }
+        .trust-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .trust-logos span {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--gray-700);
+            padding: 8px 20px;
+            background: var(--white);
+            border-radius: 6px;
+            border: 1px solid var(--gray-300);
+        }
+
+        /* ===== PROBLEM ===== */
+        .problem-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        .problem-visual {
+            background: linear-gradient(135deg, var(--gray-100), var(--gray-300));
+            border-radius: 16px;
+            padding: 48px;
+            text-align: center;
+            min-height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .problem-visual .big-number {
+            font-size: 5rem;
+            font-weight: 900;
+            color: var(--primary);
+            line-height: 1;
+        }
+        .problem-visual p {
+            color: var(--gray-500);
+            margin-top: 12px;
+            font-size: 1.1rem;
+        }
+
+        /* ===== SERVICES OVERVIEW ===== */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+        .service-card {
+            background: var(--white);
+            border: 1px solid var(--gray-100);
+            border-radius: 16px;
+            padding: 40px 32px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--accent);
+            transition: width 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+        }
+        .service-card:hover::before { width: 6px; }
+        .service-icon {
+            width: 56px;
+            height: 56px;
+            background: rgba(245, 158, 11, 0.1);
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+        }
+        .service-card h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 12px;
+        }
+        .service-card p {
+            color: var(--gray-500);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+        .service-card .tag {
+            display: inline-block;
+            margin-top: 16px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--accent-hover);
+            background: rgba(245, 158, 11, 0.1);
+            padding: 4px 12px;
+            border-radius: 20px;
+        }
+
+        /* ===== DETAILED SERVICES ===== */
+        .detailed-services {
+            background: var(--gray-100);
+        }
+        .service-detail {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 48px 40px;
+            margin-bottom: 24px;
+            border: 1px solid rgba(0,0,0,0.04);
+            transition: box-shadow 0.3s;
+        }
+        .service-detail:last-child { margin-bottom: 0; }
+        .service-detail:hover {
+            box-shadow: 0 12px 32px rgba(0,0,0,0.04);
+        }
+        .service-detail h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+        .service-detail .subtitle {
+            font-size: 0.95rem;
+            color: var(--accent);
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .service-detail p {
+            color: var(--gray-500);
+            margin-bottom: 20px;
+            max-width: 700px;
+        }
+        .service-detail ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+        .service-detail ul li {
+            display: flex;
+            align-items: start;
+            gap: 10px;
+            font-size: 0.95rem;
+            color: var(--gray-700);
+        }
+        .service-detail ul li::before {
+            content: '\2713';
+            color: var(--success);
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        /* ===== PRICING ===== */
+        .pricing {
+            background: var(--white);
+        }
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+        .pricing-card {
+            background: var(--white);
+            border: 2px solid var(--gray-100);
+            border-radius: 16px;
+            padding: 40px 32px;
+            text-align: center;
+            transition: all 0.3s;
+            position: relative;
+        }
+        .pricing-card.featured {
+            border-color: var(--accent);
+            transform: scale(1.04);
+            box-shadow: 0 20px 48px rgba(245, 158, 11, 0.12);
+        }
+        .pricing-card.featured .badge {
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--accent);
+            color: var(--dark);
+            font-size: 0.8rem;
+            font-weight: 700;
+            padding: 6px 20px;
+            border-radius: 20px;
+        }
+        .pricing-card h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+        .pricing-card .price {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--dark);
+            margin: 16px 0;
+        }
+        .pricing-card .price span {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--gray-500);
+        }
+        .pricing-card .description {
+            color: var(--gray-500);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+        .pricing-card ul {
+            text-align: left;
+            margin-bottom: 32px;
+        }
+        .pricing-card ul li {
+            padding: 8px 0;
+            font-size: 0.9rem;
+            color: var(--gray-700);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .pricing-card ul li::before {
+            content: '\2713';
+            color: var(--success);
+            font-weight: 700;
+        }
+        .pricing-card:hover {
+            border-color: var(--accent);
+        }
+
+        /* ===== ABOUT / DIFFERENCE ===== */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+        .about-text h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 16px;
+        }
+        .about-text p {
+            color: var(--gray-500);
+            margin-bottom: 24px;
+            font-size: 1.05rem;
+        }
+        .values-list {
+            display: grid;
+            gap: 16px;
+        }
+        .values-list li {
+            display: flex;
+            align-items: start;
+            gap: 14px;
+            padding: 16px;
+            background: var(--gray-100);
+            border-radius: 10px;
+            font-size: 0.95rem;
+            color: var(--gray-700);
+        }
+        .values-list li strong {
+            color: var(--primary);
+        }
+        .values-list li .val-icon {
+            color: var(--accent);
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        /* ===== TARGET INDUSTRIES ===== */
+        .industries {
+            background: var(--primary);
+            color: var(--white);
+        }
+        .industries .section-title { color: var(--white); }
+        .industries .section-subtitle { color: rgba(255,255,255,0.7); }
+        .industries-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+        .industry-card {
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 14px;
+            padding: 32px 24px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+        .industry-card:hover {
+            background: rgba(255,255,255,0.14);
+            transform: translateY(-4px);
+        }
+        .industry-card .icon {
+            font-size: 2.5rem;
+            margin-bottom: 12px;
+        }
+        .industry-card h4 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .industry-card p {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.7);
+        }
+
+        /* ===== CASE STUDY ===== */
+        .case-study-card {
+            background: var(--white);
+            border: 1px solid var(--gray-100);
+            border-radius: 16px;
+            padding: 48px 40px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+        }
+        .case-study-card .industry {
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+        .case-study-card h3 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin: 28px 0;
+        }
+        .result-item {
+            text-align: center;
+            background: var(--gray-100);
+            padding: 24px 16px;
+            border-radius: 12px;
+        }
+        .result-item .num {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--accent);
+        }
+        .result-item .label {
+            font-size: 0.85rem;
+            color: var(--gray-500);
+            margin-top: 4px;
+        }
+        .testimonial {
+            margin-top: 28px;
+            padding: 24px;
+            background: rgba(245, 158, 11, 0.06);
+            border-left: 4px solid var(--accent);
+            border-radius: 0 12px 12px 0;
+        }
+        .testimonial blockquote {
+            font-style: italic;
+            color: var(--gray-700);
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+        .testimonial cite {
+            display: block;
+            margin-top: 12px;
+            font-style: normal;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        /* ===== FINAL CTA ===== */
+        .final-cta {
+            background: linear-gradient(135deg, var(--primary) 0%, #0f2b6b 100%);
+            color: var(--white);
+            text-align: center;
+            padding: 100px 0;
+        }
+        .final-cta h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        .final-cta p {
+            font-size: 1.15rem;
+            color: rgba(255,255,255,0.8);
+            max-width: 560px;
+            margin: 0 auto 36px;
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            background: var(--dark);
+            color: rgba(255,255,255,0.7);
+            padding: 48px 0;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+        }
+        .footer h4 {
+            color: var(--white);
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+        .footer p {
+            font-size: 0.9rem;
+            line-height: 1.7;
+        }
+        .footer ul li {
+            margin-bottom: 10px;
+        }
+        .footer ul li a {
+            color: rgba(255,255,255,0.6);
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+        .footer ul li a:hover { color: var(--accent); }
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            margin-top: 40px;
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1024px) {
+            .services-grid { grid-template-columns: repeat(2, 1fr); }
+            .pricing-grid { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
+            .pricing-card.featured { transform: none; }
+            .industries-grid { grid-template-columns: repeat(2, 1fr); }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+            .results-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.25rem; }
+            .hero p { font-size: 1.05rem; }
+            .section-title { font-size: 1.8rem; }
+            .nav-links { 
+                display: none; 
+                position: fixed;
+                top: var(--header-h);
+                left: 0;
+                width: 100%;
+                background: var(--white);
+                flex-direction: column;
+                padding: 24px;
+                gap: 20px;
+                box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+                border-bottom: 1px solid var(--gray-100);
+            }
+            .nav-links.open { display: flex; }
+            .menu-toggle { display: flex; }
+            .problem-grid { grid-template-columns: 1fr; gap: 32px; }
+            .services-grid { grid-template-columns: 1fr; }
+            .about-grid { grid-template-columns: 1fr; gap: 40px; }
+            .industries-grid { grid-template-columns: 1fr 1fr; }
+            .service-detail ul { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; }
+            .hero { padding: 120px 0 60px; }
+            .section { padding: 60px 0; }
+        }
+        @media (max-width: 480px) {
+            .hero h1 { font-size: 1.8rem; }
+            .industries-grid { grid-template-columns: 1fr; }
+            .results-grid { grid-template-columns: 1fr; }
+            .hero-buttons { flex-direction: column; }
+            .hero-buttons .btn { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <span class="logo-icon">RF</span>
+                RankFlow SEO
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#services">Services</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#about">About</a>
+                <a href="#case-studies">Case Studies</a>
+                <a href="#contact" class="nav-cta">Get Free Audit</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Get Found. Get Leads. <span>Grow Predictably.</span></h1>
+                <p>We help local businesses and e-commerce stores dominate Google search results. Increase your organic traffic and capture high-intent leads without burning cash on ads.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        Get My Free SEO Audit
+                    </a>
+                    <a href="#services" class="btn btn-secondary">
+                        View Our Services
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TRUST BAR ===== -->
+    <section class="trust-bar">
+        <div class="container">
+            <p>Trusted by local service providers and e-commerce brands nationwide</p>
+            <div class="trust-logos">
+                <span>&#x2696;&#xFE0F; Law Firms</span>
+                <span>&#x1F9B7; Dental Practices</span>
+                <span>&#x1F527; Plumbing Services</span>
+                <span>&#x1F6CD;&#xFE0F; E-commerce Stores</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROBLEM ===== -->
+    <section class="section" id="problem">
+        <div class="container">
+            <div class="problem-grid">
+                <div>
+                    <span class="section-label">The Problem</span>
+                    <h2 class="section-title">Tired of Being Invisible on Google?</h2>
+                    <p style="color: var(--gray-500); font-size: 1.05rem; margin-bottom: 20px;">
+                        You have a great business, but if your customers can't find you when they search, you're losing money to competitors. Many businesses waste thousands on expensive ads that stop working the moment you stop paying.
+                    </p>
+                    <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--primary); margin-bottom: 12px;">There's a Better Way.</h3>
+                    <p style="color: var(--gray-500); font-size: 1.05rem;">
+                        Organic SEO builds a long-term asset for your business. We focus on the rankings that actually drive revenue, not just vanity metrics.
+                    </p>
+                </div>
+                <div class="problem-visual">
+                    <div class="big-number">93%</div>
+                    <p>of online experiences begin with a search engine. If you're not on page one, you're invisible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES OVERVIEW ===== -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-label">What We Do</span>
+                <h2 class="section-title">Results-Driven SEO Services for SMBs</h2>
+                <p class="section-subtitle mx-auto">
+                    SEO is not a one-size-fits-all solution. We tailor our strategies to your specific business model, local market, and growth goals.
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">&#x1F4CD;</div>
+                    <h3>Local SEO Services</h3>
+                    <p>Be the first choice in your city. We optimize your Google Business Profile and local citations to ensure when neighbors search, they find <em>you</em>.</p>
+                    <span class="tag">Perfect for: Lawyers, Dentists, Plumbers</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#x1F6D2;</div>
+                    <h3>E-commerce SEO</h3>
+                    <p>Turn your online store into a sales machine. We optimize product pages, category structures, and technical SEO to drive high-converting traffic.</p>
+                    <span class="tag">Perfect for: Shopify, WooCommerce, Niche E-retailers</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#x1F4C8;</div>
+                    <h3>Strategic Content & Link Building</h3>
+                    <p>Content that educates and links that build authority. We create the roadmap that makes Google trust your brand as an industry leader.</p>
+                    <span class="tag">EEAT-focused strategy</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DETAILED SERVICES ===== -->
+    <section class="section detailed-services">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-label">Service Details</span>
+                <h2 class="section-title">How We Grow Your Visibility</h2>
+                <p class="section-subtitle mx-auto">
+                    Every engagement starts with a deep dive into your current performance. Here's exactly what we deliver.
+                </p>
+            </div>
+
+            <div class="service-detail">
+                <h3>&#x1F4CD; Local SEO &mdash; Dominating Your Local Market</h3>
+                <p class="subtitle">If your business relies on local customers, showing up in the &quot;Map Pack&quot; is non-negotiable.</p>
+                <p>We help you capture &quot;near me&quot; searches and turn local searchers into loyal clients.</p>
+                <ul>
+                    <li>Google Business Profile (GBP) Optimization &mdash; maximum visibility and engagement</li>
+                    <li>Local Citation Building &mdash; consistent NAP across the web builds trust</li>
+                    <li>Local Keyword Strategy &mdash; targeting phrases local customers actually use</li>
+                    <li>Review Management Strategy &mdash; building a 5-star reputation that converts</li>
+                    <li>Map Pack optimization for multi-location businesses</li>
+                    <li>Local service area page creation and optimization</li>
+                </ul>
+            </div>
+
+            <div class="service-detail">
+                <h3>&#x1F6D2; E-commerce SEO &mdash; Scaling Your Online Revenue</h3>
+                <p class="subtitle">E-commerce SEO is about more than rankings; it's about user experience and conversion.</p>
+                <p>We optimize your store from the technical foundation to the product descriptions.</p>
+                <ul>
+                    <li>Product &amp; Category Page Optimization &mdash; strategic keyword placement</li>
+                    <li>Technical SEO for Shops &mdash; fixing crawl errors, improving site speed</li>
+                    <li>Content Marketing for E-commerce &mdash; blogs that attract customers at every stage</li>
+                    <li>Schema Markup &mdash; rich snippets (price, availability, ratings) in search results</li>
+                    <li>Shopify, WooCommerce, and BigCommerce optimization</li>
+                    <li>Core Web Vitals improvement for better user experience</li>
+                </ul>
+            </div>
+
+            <div class="service-detail">
+                <h3>&#x1F50D; SEO Audits &amp; Strategy &mdash; The Roadmap to Success</h3>
+                <p class="subtitle">Every engagement starts with a deep dive into your current performance.</p>
+                <p>We identify the &quot;low-hanging fruit&quot; and build a long-term plan for sustainable growth.</p>
+                <ul>
+                    <li>Comprehensive Technical Audit &mdash; identifying what's holding you back</li>
+                    <li>Competitor Analysis &mdash; seeing what's working for them and doing it better</li>
+                    <li>Keyword Research &amp; Mapping &mdash; finding the high-value opportunities</li>
+                    <li>Backlink Profile Audit &mdash; ensuring a healthy, authoritative link profile</li>
+                    <li>Content gap analysis and on-page optimization</li>
+                    <li>Core Web Vitals assessment and improvement plan</li>
+                </ul>
+            </div>
+
+            <div class="service-detail">
+                <h3>&#x270D;&#xFE0F; Content Marketing &amp; Authority Building</h3>
+                <p class="subtitle">Content That Ranks and Converts</p>
+                <p>We don't just write for search engines; we write for people. Our content establishes your brand as an authority while satisfying Google's EEAT standards.</p>
+                <ul>
+                    <li>SEO-Optimized Blog Posts &mdash; engaging content that answers customer questions</li>
+                    <li>Landing Page Copywriting &mdash; high-converting pages designed to drive leads</li>
+                    <li>Link Building Outreach &mdash; manual outreach to gain high-quality, relevant links</li>
+                    <li>Guest posting on industry-relevant publications</li>
+                    <li>Content refresh and optimization for existing pages</li>
+                    <li>Topic cluster and pillar page strategy</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PRICING ===== -->
+    <section class="section pricing" id="pricing">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-label">Transparent Pricing</span>
+                <h2 class="section-title">SEO Agency Pricing That Works for You</h2>
+                <p class="section-subtitle mx-auto">
+                    We believe in transparency and &quot;skin in the game.&quot; No hidden fees &mdash; just predictable, results-driven SEO.
+                </p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>SEO Setup &amp; Audit</h3>
+                    <div class="price">$2k&ndash;$5k <span>one-time</span></div>
+                    <p class="description">Perfect for businesses that need a deep-dive fix to their SEO foundation.</p>
+                    <ul>
+                        <li>Comprehensive technical audit</li>
+                        <li>Competitor gap analysis</li>
+                        <li>Keyword research &amp; mapping</li>
+                        <li>Backlink profile audit</li>
+                        <li>Prioritized action plan</li>
+                        <li>One-time deep-dive deliverable</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-sm">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <span class="badge">Most Popular</span>
+                    <h3>Monthly SEO Retainer</h3>
+                    <div class="price">$1.5k&ndash;$5k <span>/mo</span></div>
+                    <p class="description">Continuous optimization, content creation, and growth for businesses serious about ranking.</p>
+                    <ul>
+                        <li>Everything in Setup &amp; Audit</li>
+                        <li>Monthly content creation &amp; optimization</li>
+                        <li>Ongoing keyword rank tracking</li>
+                        <li>Link building and outreach</li>
+                        <li>Monthly performance reports</li>
+                        <li>Dedicated SEO strategist</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-sm">Request a Custom Quote</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Performance Bonuses</h3>
+                    <div class="price">Win-Win <span>pricing</span></div>
+                    <p class="description">We win when you win. Aggressive growth bonuses for top-performing clients.</p>
+                    <ul>
+                        <li>Ranking Milestone: bonus when target keywords hit Top 3</li>
+                        <li>Traffic Milestone: bonus for 50% organic traffic growth</li>
+                        <li>No long-term contracts required</li>
+                        <li>Transparent milestone tracking</li>
+                        <li>Aligned with your business goals</li>
+                        <li>Performance-driven partnership</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-sm">Learn More</a>
+                </div>
+            </div>
+            <p style="text-align: center; margin-top: 32px; color: var(--gray-500); font-size: 0.9rem;">
+                All retainers include a 30-day cancellation policy. We earn your business every month through results, not legal fine print.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===== WHY RANKFLOW / ABOUT ===== -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <span class="section-label">Why RankFlow SEO</span>
+                    <h2>We Grow Businesses, Not Just Rankings</h2>
+                    <p>At RankFlow SEO, we believe that small and medium-sized businesses deserve the same level of digital expertise as global corporations. Our mission is simple: to provide predictable, measurable growth for local service providers and e-commerce stores through transparent and effective SEO.</p>
+                    <p>The digital marketing world is full of &quot;smoke and mirrors.&quot; We saw too many business owners paying for &quot;SEO&quot; without ever seeing a single new customer. We founded RankFlow to change that. <strong>We focus on the metrics that matter: Traffic, Leads, and Revenue.</strong></p>
+                    <a href="#contact" class="btn btn-primary">Schedule Your Strategy Call</a>
+                </div>
+                <div>
+                    <h3 style="font-size: 1.3rem; font-weight: 700; color: var(--primary); margin-bottom: 20px;">The RankFlow Difference</h3>
+                    <ul class="values-list">
+                        <li>
+                            <span class="val-icon">&#x1F4CA;</span>
+                            <div><strong>Data-Driven Strategy:</strong> No guesswork. We use advanced analytics to find the keywords your customers are actually typing.</div>
+                        </li>
+                        <li>
+                            <span class="val-icon">&#x1F4CB;</span>
+                            <div><strong>Transparent Reporting:</strong> You'll know exactly where your investment is going and how your rankings are improving.</div>
+                        </li>
+                        <li>
+                            <span class="val-icon">&#x1F3AF;</span>
+                            <div><strong>ROI Focused:</strong> We don't just chase traffic; we chase leads and sales.</div>
+                        </li>
+                        <li>
+                            <span class="val-icon">&#x1F91D;</span>
+                            <div><strong>No Long-Term Contracts:</strong> We earn your business every month through results, not legal fine print.</div>
+                        </li>
+                        <li>
+                            <span class="val-icon">&#x26A1;</span>
+                            <div><strong>Agile and Responsive:</strong> When Google changes its algorithm, we've already adjusted your strategy.</div>
+                        </li>
+                        <li>
+                            <span class="val-icon">&#x1F4BC;</span>
+                            <div><strong>We Speak &quot;Business&quot;:</strong> We take the time to understand your industry, your margins, and your customers.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TARGET INDUSTRIES ===== -->
+    <section class="section industries" id="industries">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-label" style="color: var(--accent);">Industries We Serve</span>
+                <h2 class="section-title" style="color: var(--white);">SEO Specialization by Vertical</h2>
+                <p class="section-subtitle mx-auto" style="color: rgba(255,255,255,0.7);">
+                    We go deep into your industry to outrank the competition. Our vertical-specific approach delivers results that generalist agencies can't match.
+                </p>
+            </div>
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <div class="icon">&#x2696;&#xFE0F;</div>
+                    <h4>Legal</h4>
+                    <p>Rank for high-value practice area keywords. Dominate local law firm searches.</p>
+                </div>
+                <div class="industry-card">
+                    <div class="icon">&#x1F9B7;</div>
+                    <h4>Healthcare</h4>
+                    <p>Attract more patients for your dental or medical practice with local SEO.</p>
+                </div>
+                <div class="industry-card">
+                    <div class="icon">&#x1F527;</div>
+                    <h4>Home Services</h4>
+                    <p>Be the first plumber, electrician, or contractor called in an emergency.</p>
+                </div>
+                <div class="industry-card">
+                    <div class="icon">&#x1F6CD;&#xFE0F;</div>
+                    <h4>E-commerce</h4>
+                    <p>Outrank the big-box retailers in your niche with specialized e-commerce SEO.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CASE STUDIES ===== -->
+    <section class="section" id="case-studies">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-label">Case Studies</span>
+                <h2 class="section-title">Real Results for Real Businesses</h2>
+                <p class="section-subtitle mx-auto">
+                    Every business has untapped potential on Google. Here's what's possible when you partner with RankFlow SEO.
+                </p>
+            </div>
+            <div class="case-study-card">
+                <p class="industry">&#x1F4CB; Industry: HVAC Services</p>
+                <h3>How a Local HVAC Company Increased Organic Leads by 340% in 6 Months</h3>
+                <p style="color: var(--gray-500); margin-bottom: 16px;">
+                    A family-owned HVAC business was invisible on Google &mdash; stuck on page 3 for their core service keywords and dependent on expensive PPC ads to stay afloat.
+                </p>
+                <p style="color: var(--gray-500); margin-bottom: 20px;"><strong>The Challenge:</strong> Keyword rankings for core services were on page 3 or lower. The website had technical errors preventing proper indexing, and organic traffic was declining month-over-month while PPC costs were skyrocketing.</p>
+                
+                <h4 style="color: var(--primary); font-weight: 700; margin-bottom: 12px;">Our Strategy</h4>
+                <p style="color: var(--gray-500); margin-bottom: 24px;">
+                    <strong>Phase 1:</strong> Technical foundation &mdash; fixed 27 critical errors, improved site speed by 42%, implemented LocalBusiness schema.<br>
+                    <strong>Phase 2:</strong> High-intent keyword research targeting &quot;bottom of funnel&quot; terms like &quot;emergency HVAC repair [city]&quot; and &quot;furnace replacement cost&quot;.<br>
+                    <strong>Phase 3:</strong> Created 8 new service landing pages and secured 12 high-quality backlinks from local home improvement sites.
+                </p>
+
+                <div class="results-grid">
+                    <div class="result-item">
+                        <div class="num">+340%</div>
+                        <div class="label">Organic Traffic Increase</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="num">+280%</div>
+                        <div class="label">Monthly Lead Growth</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="num">#1-3</div>
+                        <div class="label">Keywords in Top Positions</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="num">-65%</div>
+                        <div class="label">Cost-per-Lead (vs. PPC)</div>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <blockquote>
+                        &quot;RankFlow SEO didn't just give us rankings; they gave us a growing business. Our phones are ringing more than ever, and we finally have a predictable way to get new customers.&quot;
+                    </blockquote>
+                    <cite>&mdash; Mike T., Owner, Peak Heating &amp; Cooling</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FINAL CTA ===== -->
+    <section class="final-cta" id="contact">
+        <div class="container">
+            <h2>Ready to Claim the Top Spot?</h2>
+            <p>Stop letting your competitors take your leads. Let's build a predictable engine for your business growth.</p>
+            <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                <a href="#" class="btn btn-primary" style="font-size: 1.1rem; padding: 18px 40px;">
+                    Schedule Your Strategy Call
+                </a>
+                <a href="#" class="btn btn-secondary" style="font-size: 1.1rem; padding: 18px 40px;">
+                    Get My Free SEO Audit
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4 style="display: flex; align-items: center; gap: 10px;">
+                        <span style="width: 30px; height: 30px; background: linear-gradient(135deg, var(--primary), var(--accent)); border-radius: 6px; display: inline-flex; align-items: center; justify-content: center; color: white; font-size: 0.8rem; font-weight: 700;">RF</span>
+                        RankFlow SEO
+                    </h4>
+                    <p>We help local businesses and e-commerce stores get found on Google &mdash; higher rankings, more organic traffic, and measurable leads &mdash; without burning cash on ads.</p>
+                </div>
+                <div>
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Local SEO</a></li>
+                        <li><a href="#services">E-commerce SEO</a></li>
+                        <li><a href="#services">SEO Audits</a></li>
+                        <li><a href="#services">Content Marketing</a></li>
+                        <li><a href="#services">Link Building</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Industries</h4>
+                    <ul>
+                        <li><a href="#industries">Legal SEO</a></li>
+                        <li><a href="#industries">Dental SEO</a></li>
+                        <li><a href="#industries">Plumber SEO</a></li>
+                        <li><a href="#industries">Shopify SEO</a></li>
+                        <li><a href="#industries">E-commerce SEO</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#case-studies">Case Studies</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2025 RankFlow SEO. All rights reserved.</span>
+                <span>Predictable Growth. Measurable Results.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navLinks.classList.toggle('open');
+        });
+
+        // Close mobile menu on link click
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.classList.remove('active');
+                navLinks.classList.remove('open');
+            });
+        });
+
+        // Header shadow on scroll
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href === '#') return;
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    const offset = 80;
+                    const top = target.getBoundingClientRect().top + window.scrollY - offset;
+                    window.scrollTo({ top, behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
